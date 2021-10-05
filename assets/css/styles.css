@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    ba
+}
+
+img {
+
+    max-width: 100%;
+}
+
+.imagenRedonda {
+    border-radius: 50%;
+}
+
+.noDecoracion {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+
+
+.fila-flex {
+
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+
+
+
+}
+
+.columnas-12 {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.columnas-11 {
+    flex-basis: 91.66%;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+
+.columnas-10 {
+    flex-basis: 83.33%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-9 {
+    flex-basis: 75%;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.columnas-8 {
+    flex-basis: 66.66%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-7 {
+    flex-basis: 58.33%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-6 {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.columnas-5 {
+    flex-basis: 41.66%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-4 {
+    flex-basis: 33.33%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-3 {
+    flex-basis: 25%;
+    flex-wrap: wrap;
+
+
+}
+
+.columnas-2 {
+    flex-basis: 16.66%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.columnas-1 {
+    flex-basis: 8.33%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.posicion {
+    position: sticky;
+    top: 0px;
+    padding: 0px 10px 0px 10px;
+
+
+}
+
+aside {
+    display: flex;
+
+
+
+
+
+}
+
+.centrar {
+    text-align: center;
+}
+
+.navegacion {
+    margin: auto;
+}
+
+.navegacion li {
+
+    margin: 30px;
+}
+
+
+
+.lista-flex {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-flex>li {
+    margin: 20px;
+
+}
+
+.altoMinimo {
+    min-height: 100vh;
+}
+
+.home {
+    background-color: rgba(134, 52, 14, 0.911);
+}
