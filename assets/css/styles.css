@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    ba
+
 }
 
 img {
@@ -25,6 +25,10 @@ img {
 a {
     text-decoration: none;
     color: gray;
+}
+
+a:hover {
+    color: rgb(77, 50, 7);
 }
 
 
@@ -128,15 +132,16 @@ a {
 
 aside {
     display: flex;
-
-
-
-
+    background: rgb(233, 204, 184);
 
 }
 
 .centrar {
     text-align: center;
+}
+
+.centrar div {
+    margin: 20px;
 }
 
 .navegacion {
@@ -152,8 +157,10 @@ aside {
 
 .lista-flex {
 
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
+    padding: 0px;
+
+
 }
 
 .lista-flex>li {
@@ -161,10 +168,24 @@ aside {
 
 }
 
+.lista-flex>li:hover {
+    color: blue;
+}
+
 .altoMinimo {
     min-height: 100vh;
 }
 
+
+
 .home {
-    background-color: rgba(134, 52, 14, 0.911);
+
+    background-color: rgba(255, 255, 255, 0.431);
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+
 }
