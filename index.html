@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,82 +14,150 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
 </head>
 
-<body class="fila-flex">
+<body>
+
+    <div class="container-fluid">
+        <div class="row align-content-center">
 
 
-    <aside class="columnas-3 posicion altoMinimo ">
-        <div class="centrar">
-            <br>
-            <div>
-                <img class="imagenRedonda" src="./assets/images/triangles-1172783.jpg" alt="foto perfil">
-            </div>
+            <aside class="row col-md-2 m-0 p-0 sticky-top h-100 justify-content-center">
 
-            <h1>Marelis Carolina Rozo Saavedra</h1>
-            <ul class="noDecoracion lista-flex">
-                <li><a href=""><i class="twi-c fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab-c fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="in-c fab fa-linkedin-in"></i></a></li>
-                <li><a href=""><i class="ins-c fab fa-instagram"></i></a></li>
-            </ul>
 
-            <hr>
+                <div class="row col-12 altoMinimo mt-1">
+
+                    <div class="col-12 text-center mt-5">
+                        <div class="mb-4">
+                            <img class="imagenRedonda"
+                                src="./assets/images/profile_7010f596d98ed1309df92f284fe36fe4914200fe.jpg"
+                                alt="foto perfil">
+                        </div>
+
+                        <h3 class="mb-4">Marelis Carolina Rozo Saavedra</h3>
+                        <ul class="noDecoracion lista-flex mb-4">
+                            <li><a href="https://github.com/carolinarozo"><i class="fa fa-git-square" aria-hidden="true"
+                                        alt="icon git"></i></a></li>
+                            <li><a href=""><i class="fab-c fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="in-c fab fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="ins-c fab fa-instagram"></i></a></li>
+                        </ul>
+
+                        <hr>
+
+
+                    </div>
+
+
+
+
+                    <div class="col-12">
+                        <ul class="noDecoracion">
+                            <li class="mb-2"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
+                            <li class="mb-2"><a href="#abaut"><i class="fa fa-user" aria-hidden="true"></i> ABAUT</a>
+                            </li>
+
+                            <li class="mb-2"><a href="#portafolio"><i class="fa fa-folder" aria-hidden="true"></i>
+                                    PORTAFOLIO</a>
+                            </li>
+
+                            <li class="mb-2"><a href="#contact"><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                                    CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </aside>
+
+
+
+
+            <main class="row col-12 col-md-10 m-0 p-0">
+                <section class="altoMinimo " id="home">
+                    <div>
+                        <img src="./assets/images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="">
+
+                    </div>
+                    <div class="home">
+                        <h1>PORTAFOLIO DE SERVICIOS</h1>
+                        <h2>Desarrollador web</h2>
+                    </div>
+
+
+                </section>
+                <section id="abaut" class="altoMinimo">
+                    <div>
+
+                        <h1> Abaut</h1>
+                        <h2>Desarrollador web junior</h2>
+                        <p>¡Hola! Soy ingeniera especialista en gerencia de proyectos con conocimeintos en
+                            desarrollo
+                            web.<br>
+                            Soy
+                            apacionada por la tecnología y me gusta crear soluciones que puedan ayudar a las
+                            personas.
+                        </p>
+                    </div>
+                    <img src="./assets/images/jackson-so-_t-l5FFH8VA-unsplash.jpg" alt="">
+
+
+                </section>
+
+                <section id="portafolio" class="altoMinimo">
+
+                    <h1>PORTAFOLIO</h1>
+
+                    <iframe width="560" height="315" src="https://carolinarozo.github.io/pagina-de-env-os/"
+                        frameborder="0"></iframe>
+                    <iframe width="560" height="315" src="https://carolinarozo.github.io/asignadorTurnos/"
+                        frameborder="0"></iframe>
+
+                    <iframe width="560" height="315" src="https://carolinarozo.github.io/proyecto-fitnessVo//"
+                        frameborder="0"></iframe>
+
+                    <iframe width="560" height="315" src="https://carolinarozo.github.io/calendario/"
+                        frameborder="0"></iframe>
+                </section>
+
+                <section id="contact" class="altoMinimo">
+
+                    <h1>CONTACT</h1>
+                </section>
+            </main>
+
         </div>
 
 
 
-        <div class="navegacion">
-            <ul class="noDecoracion">
-                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
-                <li><a href="#abaut"><i class="fa fa-user" aria-hidden="true"></i> ABAUT</a> </li>
-                <li><a href="#resume"><i class="fa fa-pencil-square-o" aria-hidden="true"> </i> RESUME</a> </li>
-                <li><a href="#portafolio"><i class="fa fa-folder" aria-hidden="true"></i> PORTAFOLIO</a> </li>
-                <li><a href="#services"><i class="fa fa-server" aria-hidden="true"></i> SERVICES</a> </li>
-                <li><a href="#contact"><i class="fa fa-envelope-open" aria-hidden="true"></i> CONTACT</a> </li>
-
-            </ul>
-        </div>
 
 
-    </aside>
-    <main class="columnas-9">
-        <section id="home">
-            <div class="altoMinimo ">
-                <img src="./assets/images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="">
 
-            </div>
-            <div class="home">
-                <h1>PORTAFOLIO DE SERVICIOS</h1>
-                <h2>Desarrollador web</h2>
-            </div>
-
-
-        </section>
-        <section id="abaut" class="altoMinimo">
-            <h1> Abaut</h1>
-
-        </section>
-        <section id="resume" class="altoMinimo">
-            <h1>RESUME</h1>
-
-        </section>
-        <section id="portafolio" class="altoMinimo">
-
-            <h1>PORTAFOLIO</h1>
-        </section>
-        <section id="services" class="altoMinimo">
-
-            <h1>SERVICES</h1>
-
-        </section>
-        <section id="contact" class="altoMinimo">
-
-            <h1>CONTACT</h1>
-        </section>
-    </main>
     </div>
+
+
+
+
+
+
+    </div>
+    </div>
+
+
     <footer>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
 
 </body>
 
