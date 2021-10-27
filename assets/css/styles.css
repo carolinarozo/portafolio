@@ -181,7 +181,7 @@ aside {
 
 .home {
 
-    background-color: rgba(255, 255, 255, 0.431);
+    background-color: rgba(209, 202, 202, 0.431);
     position: absolute;
     top: 50vh;
     left: 40vw;
@@ -192,6 +192,6 @@ aside {
 }
 
 .bgtrasparente {
-    background: rgba(233, 204, 184, 0.52);
+    background: rgba(77, 50, 7, 0.575);
     ;
 }
