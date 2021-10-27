@@ -190,3 +190,8 @@ aside {
     text-align: center;
 
 }
+
+.bgtrasparente {
+    background: rgba(233, 204, 184, 0.52);
+    ;
+}
